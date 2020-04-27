@@ -1,0 +1,7 @@
+---
+- host: 192.168.56.10
+  become: true
+  tasks:  
+  - user: name=manoj state=present
+    
+  
